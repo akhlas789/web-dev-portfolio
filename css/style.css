@@ -1,5 +1,9 @@
 /* nav style */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
 
 #open-sans-normal {
   font-family: "Open Sans", sans-serif;
@@ -22,7 +26,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 40px 200px;
+  margin: 0px 40px 200px 200px;
 }
 .nav ul {
   display: flex;
@@ -56,8 +60,7 @@ nav ul li a {
     url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  /* background-size: cover; */
-  /* background: rgb(255, 248, 243); */
+  background-color: beige;
 }
 /* banner styles */
 .banner {
@@ -78,4 +81,30 @@ nav ul li a {
 }
 .banner-profile-pic {
   height: 500px;
+}
+
+/* main section start */
+.about-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #181818;
+}
+.about-text {
+  font-size: 18px;
+  color: rgb(117, 117, 117);
+  margin-top: 10px;
+}
+.about {
+  width: 540px;
+  background-color: bisque;
+  padding: 150px 200px;
+  margin: 50px auto;
+  text-align: center;
+}
+.about-content {
+  max-width: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: azure;
+  border-radius: 10px;
 }
